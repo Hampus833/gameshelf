@@ -1,3 +1,32 @@
 #header_links {
     display: flex;
+    gap: 10px;
+    font-family: inter;
+}
+
+#logo {
+    display: flex;
+    align-items: flex-end;
+
+    font-size: 200%;
+    font-family: inter_bold;
+    line-height: 1;
+    transform: translateY(5px);
+
+    cursor: pointer;
+}
+
+#header_links {
+    align-items: end;
+}
+
+#header_links>p {
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+p,
+h2 {
+    color: white;
+    margin: 0;
 }
